@@ -1,5 +1,8 @@
 #!/usr/bin/python
-weight = 123
+print("Please enter the total weight of the package you want to ship: ")
+number_string = input()
+num = float(number_string)
+weight = num
 # Ground Shipping
 if weight <= 2:
   cost_ground = weight * 1.5 + 20
